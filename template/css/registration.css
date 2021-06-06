@@ -1,0 +1,112 @@
+.reg
+{
+	margin-top: 70px;
+}
+.reg-inner
+{
+	max-width: 83%;
+	width: 83%;
+}
+.block-reg
+{
+	height: 560px;
+	width: 600px;
+	background: rgba(126, 166, 246, 0.4);
+	box-shadow: 0px 0px 100px rgba(149, 191, 255, 0.35);
+	border-radius: 30px;
+}
+.block-reg-text
+{
+	color: white;
+	font-size: 63px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	padding-top: 40px;
+}
+.block-reg-input
+{
+	max-width: 100%;
+	height: 230px;
+	margin-top: 70px;
+}
+.block-reg-input-inner
+{
+	max-width: 80%;
+	width: 80%;
+}
+.block-reg-button
+{
+	margin-top: 40px;
+}
+#block-reg-copyright-text
+{
+	color: #95BFFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 73px;
+	width: 535px;
+}
+.block-reg-logo
+{
+	margin-top: 30px;
+}
+.block-reg-circle
+{
+	width: 260px;
+	height: 260px;
+	border-radius: 50%;
+	background-color: #95BFFF;
+	box-shadow: 0px 0px 100px rgba(149, 191, 255, 0.38);
+}
+#block-reg-logo-v
+{
+	position: relative;
+	bottom: 35px;
+    font-family: Vampiro One;
+	font-size: 270px;
+	text-align: center;
+    color: white;
+    height: 100px;
+}
+.error 
+{
+	border-color: #FFA9A9;
+}
+.reg-button-eror
+{
+	margin-bottom: 30px;
+}
+@media screen and (max-width: 767px) 
+{
+	.reg
+	{
+		margin-top: 0;
+		margin-bottom: 100px;
+	}
+	.reg-inner
+	{
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		height: 730px;
+	}
+	.block-reg-logo
+	{
+		display: none;
+	}
+	#block-reg-copyright-text
+	{
+		text-align: center;
+		font-size: 40px;
+		width: 100%;
+		margin-bottom: 30px;
+		line-height: 42px;
+	}
+	.block-reg
+	{
+		width: 100%;
+	}
+	.block-reg-text
+	{
+		font-size: 45px;
+	}
+}

@@ -1,0 +1,158 @@
+.interview-data
+{
+	margin-top: 5%;
+}
+.interview-data-inner
+{
+	width: 40%;
+}
+.interview-variants
+{
+	width: 100%;
+	margin-top: 30px;
+}
+.interview-variant
+{
+	color: #95BFFF;
+	width: 100%;
+	height: 70px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 80px rgba(149, 191, 255, 0.35);
+	margin-bottom: 35px;
+	cursor: pointer;
+	transition: .2s;
+	overflow: hidden;
+	padding: 0 20px;
+}
+.interview-variant:hover
+{
+	background: rgba(149, 191, 255, 0.25);
+}
+.interview-variant:last-child
+{
+	margin-bottom: 0;
+}
+.interview-display
+{
+	margin-bottom: 100px;
+}
+.interview-display-inrv
+{
+	margin-bottom: 50px !important;
+}
+.interview-display-inrv:last-child
+{
+	margin-bottom: 0;
+}
+.question-title
+{
+	color: #95BFFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.interview-variant p
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	font-size: 20px;
+}
+.interview-button
+{
+	margin-top: 5%;
+}
+.interview-button-inner
+{
+	width: 50%;
+}
+.interview-counter
+{
+	color: #95BFFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	width: 100px;
+	box-shadow: 0px 0px 50px rgba(149, 191, 255, 0.6);
+	border-radius: 10px;
+}
+.creator-variant
+{
+    color: #95BFFF;
+	width: 100%;
+	height: 70px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 50px rgba(149, 191, 255, 0.35);
+	margin-bottom: 35px;
+	transition: background .2s;
+}
+.creator-variant:hover
+{
+	background-position: 100%;
+}
+.creator-variant p
+{
+	margin-left: 3%;
+	width: 30%;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+.creator-variant p:last-child
+{
+	text-align: center;
+}
+.creator-variant:last-child
+{
+	margin-bottom: 0;
+}
+.creator-slider
+{
+	color: #95BFFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+}
+.interview-staistic
+{
+	margin-top: 30px;
+	width: 100%;
+	background-color: rgba(126, 166, 246, 0.5);
+	box-shadow: 0px 0px 100px rgba(149, 191, 255, 0.35);
+	padding: 30px 0;
+}
+.interview-staistic-inner
+{
+	width: 60%;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+.statistic-text-field
+{
+	color: #95BFFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+	width: 100%;
+	box-shadow: 0px 0px 50px rgba(149, 191, 255, 0.35);
+	border-radius: 20px;
+	/*border: 2px solid #95BFFF;*/
+	padding: 15px 20px;
+	margin-bottom: 30px;
+	display: none;
+}
+.statistic-text-field p 
+{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.statistic-text-field p:last-child
+{
+	font-weight: 400;
+	margin-bottom: 0;
+}

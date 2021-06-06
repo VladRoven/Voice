@@ -1,0 +1,75 @@
+.login
+{
+	margin-top: 70px;
+}
+.login-block
+{
+	height: 490px;
+	width: 500px;
+	background-color: rgba(126, 166, 246, 0.4);
+	box-shadow: 0px 0px 100px rgba(149, 191, 255, 0.35);
+    border-radius: 30px;
+}
+.login-block-inner
+{
+	margin-top: 50px;
+	height: 370px;	
+}
+.login-text
+{
+	color: white;
+	font-size: 63px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+.login-input
+{
+	height: 170px;
+	margin-top: 50px;
+}
+.login-input-inner
+{
+	width: 80%;
+}
+.block-login-button-inner
+{
+	width: 80%;
+}
+.block-login-button-inner button
+{
+	margin-top: 10px;
+}
+.button-login
+{
+	width: 190px;
+}
+#log-button-error
+{
+	margin-bottom: 20px;
+}
+@media screen and (max-width: 767px)
+{
+	.login
+	{
+		margin-top: 40px;
+		margin-bottom: 100px;
+	}
+	.login-block
+	{
+		width: 83%;
+	}
+	.login-text
+	{
+		font-size: 45px;
+	}
+	.block-login-button-inner
+	{
+		flex-wrap: wrap;
+		justify-content: space-around;
+		width: 100%;
+	}
+	.button-login
+	{
+		width: 80%;
+	}
+}

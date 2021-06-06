@@ -1,0 +1,32 @@
+<?php
+return array(
+	"main" => "main/index",
+	"registration" => "registration/index",
+	"check_reg" => "registration/check",
+	"login" => "login/index",
+	"check_log" => "login/login",
+	"send_pass" => "login/sendpass",
+	"cabinet" => "cabinet/index",
+	"logout" => "cabinet/logout",
+	"update_name" => "cabinet/changename",
+	"check_old_pass" => "cabinet/checkpass",
+	"update_pass" => "cabinet/changepass",
+	"about" => "about/index",
+	"constructor" => "constructor/index",
+	"create_interview" => "cabinet/createinterview",
+	"del_interview" => "constructor/deleteinterview",
+	"post_interview" => "constructor/postinterview",
+	"check_status" => "cabinet/checkstatus",
+	"interview" => "interview/index",
+	"counter_question" => "interview/counter",
+	"update_answer" => "interview/interviewend",
+	"show_open" => "interview/showopenanswer",
+	"update_status" => "interview/changestatus",
+	"del_inter_active" => "interview/delinterviewactive",
+	"add_question" => "constructor/addquestion",
+	"del_question" => "constructor/deletequestion",
+	"question_for_edit" => "constructor/getdataedit",
+	"edit_question" => "constructor/editquestion",
+	"get_report" => "interview/getreport"
+);
+?>

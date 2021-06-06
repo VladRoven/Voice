@@ -1,0 +1,298 @@
+@media screen and (max-width: 767px) 
+{
+	.win-inform-block
+	{
+		width: 80% !important;
+		height: 40%;
+	}
+	.win-inform-block-button-inner
+	{
+		width: 70% !important;
+	}
+
+	/*LOGIN*/
+
+	#block-login
+	{
+		height: 30% !important;
+	}
+	#block-text-login input
+	{
+		width: 80% !important;
+	}
+
+	/*ABOUT*/
+
+	.about-voice
+	{
+		padding: 0 10%;
+	}
+	.about-voice-text
+	{
+		width: 100%;
+		margin-left: 0;
+		margin-top: 0;
+	}
+	.about-constructor, .about-adaptive
+	{
+		margin-top: 100px;
+	}
+	.about-constructor-inner
+	{
+		flex-wrap: wrap;
+		width: 100%;
+		max-width: 100%;
+		padding: 0 10%;
+	}
+	.about-adaptive-inner
+	{
+		flex-wrap: wrap-reverse;
+		width: 100%;
+		max-width: 100%;
+		padding: 0 10%;
+	}
+	.about-constructor-inner img, .about-adaptive-inner img
+	{
+		width: 100%;
+		height: 40%;
+	}
+	.about-constructor-text
+	{
+		margin-top: 30px;
+		width: 100%;
+	}
+	#about-constructor-text-header, #about-adaptive-text-header, 
+	#about-constructor-text-main, #about-voice-text-main, 
+	#about-voice-text-header, #about-adaptive-text-main
+	{
+		text-align: center;
+	}
+	.about-adaptive-text
+	{
+		margin-top: 30px;
+		width: 100%;
+	}
+	.about-adaptive
+	{
+		margin-bottom: 100px;
+	}
+
+	/*CABINET*/
+
+	.header-text-inner p
+	{
+		font-size: 30px !important;
+	}
+	.cabinet-details-inner
+	{
+		flex-wrap: wrap;
+	}
+	.cabinet-details-user
+	{
+		width: 100% !important;
+		border-radius: 30px 30px 0 0 !important;
+		height: 350px !important;
+	}
+	.cabinet-details-user-inner
+	{
+		width: 90% !important;
+	}
+	#cabinet-details-user-button
+	{
+		width: 250px !important;
+	}
+	.cabinet-details-interview
+	{
+		width: 100% !important;
+	}
+	.cabinet-details-new-interview
+	{
+		width: 100% !important;
+		border-radius: 0 0 30px 30px !important;
+		height: 300px !important;
+		margin-bottom: 100px;
+	}
+	.cabinet-details-interview-interviews
+	{
+		padding: 0 20px !important;
+	}
+	.cabinet-interview-display-inner-first, #win-inform-block
+	{
+		width: 80% !important;
+	}
+	.cabinet-interview-display-inner-second
+	{
+		width: 17% !important;
+	}
+	.cabinet-details
+	{
+		margin-top: 30px !important;
+	}
+	.cabinet-interview-display-inner-info p
+	{
+		width: 80%;
+		font-size: 20px !important;
+	}
+	.action-block
+	{
+		width: 356px !important;
+	}
+	#cab-text-settings
+	{
+		font-size: 30px !important;
+	}
+	.block-settings-inner-logo
+	{
+		display: none !important;
+	}
+	.block-settings-inner-input, .block-settings-change-pass
+	{
+		margin: 0 !important;
+		width: 100% !important;
+		padding: 0 20px;
+	}
+	.reg-button-eror
+	{
+		width: 90% !important;
+	}
+	.block-settings-change-pass
+	{
+		height: 90% !important;
+		padding-top: 20px;
+	}
+	.reg-button-eror
+	{
+		padding: 0 10px;
+	}
+
+	/*INTERVIEW CREATOR*/
+	.interview-staistic-inner
+	{
+		width: 100% !important;
+	}
+	.constructor-name p
+	{
+		font-size: 30px !important;
+	}
+	.interview-data-inner
+	{
+		width: 87% !important;
+	}
+	.creator-slider
+	{
+		text-align: center;
+	}
+	.constructor-button-action-inner
+	{
+		width: 67% !important;
+		margin-bottom: 50px;
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+		justify-content: space-around !important;
+	}
+	.constructor-button-action-end
+	{
+		margin-bottom: 20px;
+	}
+	.constructor-button-action-end:last-child
+	{
+		margin: 0;
+	}
+	body, html, .conteiner
+	{
+		height: auto !important;
+	}
+
+	/*CONSTRUCTOR*/
+
+	.constructor-interview-data-inner
+	{
+		width: 90% !important;
+	}
+	#empty
+	{
+		text-align: center;
+	}
+	#adaptive-const
+	{
+		max-height: 90% !important;
+		height: auto !important;
+		padding: 20px 20px !important;
+	}
+	.constructor-body-text
+	{
+		font-size: 20px !important;
+	}
+	.select
+	{
+		width: 170px !important;
+	}
+	.select-current
+	{
+		font-size: 15px !important;
+	}
+	.select-item
+	{
+		font-size: 20px !important;
+	}
+	.select-icon-line
+	{
+		height: 15px !important;
+	}
+	.constructor-input
+	{
+		width: 80% !important;
+	}
+	.select-icon
+	{
+		width: 10px !important;
+	}
+	.constructor-variant-add-block
+	{
+		padding: 0 !important;
+	}
+	.constructor-scale-add
+	{
+		width: 100% !important;
+	}
+	#from, #step, #to
+	{
+		width: 80% !important;
+	}
+	.scale-data-enter
+	{
+		flex-wrap: wrap;
+		justify-content: space-around !important;
+	}
+	.scale-data-input
+	{
+		margin-bottom: 20px;
+	}
+	.scale-data-input:last-child
+	{
+		margin: 0;
+	}
+
+	/* INTERVIEW USER */
+
+	.interview-button-inner
+	{
+		flex-wrap: wrap;
+	}
+	#interview-button-back
+	{
+		margin-bottom: 20px;
+	}
+	.interview-counter
+	{
+		margin-bottom: 20px;
+		height: 50px;
+	}
+	.interview-button
+	{
+		margin-bottom: 50px;
+	}
+}

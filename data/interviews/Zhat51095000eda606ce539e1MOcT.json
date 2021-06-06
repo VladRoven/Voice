@@ -1,0 +1,1 @@
+[{"id":0,"type":1,"title":"1","variants":[{"id":0,"variant":"1"},{"id":1,"variant":"2"},{"id":2,"variant":"3"}]},{"id":1,"type":2,"title":"2","from":1,"to":10,"step":1},{"id":2,"type":3,"title":"3"},{"id":3,"type":1,"title":"4","variants":[{"id":0,"variant":"1"},{"id":1,"variant":"23"},{"id":2,"variant":"3"}]}]

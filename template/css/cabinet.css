@@ -1,0 +1,306 @@
+.header-text-inner p
+{
+	color: #95BFFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 70px;
+}
+.cabinet-details
+{
+	margin-top: 70px;
+}
+.cabinet-details-inner
+{
+	width: 83%;
+}
+.cabinet-details-cabinet
+{
+	height: 400px;
+}
+.cabinet-details-user
+{
+	width: 30%;
+	background: rgba(126, 166, 246, 0.35);
+	overflow-x: hidden;
+	box-shadow: 0px 0px 100px rgba(149, 191, 255, 0.35);
+	border-radius: 30px 0px 0px 30px;
+}
+
+.cabinet-details-interview
+{
+	width: 70%;
+	box-shadow: 0px 0px 100px rgba(149, 191, 255, 0.35);
+	background-color: white;
+	z-index: 1;
+}
+.cabinet-details-new-interview
+{
+	width: 30%;
+	background: rgba(126, 166, 246, 0.35);
+	box-shadow: 0px 0px 100px rgba(149, 191, 255, 0.35);
+	border-radius: 0px 30px 30px 0px;
+}
+#cabinet-details-user-button
+{
+	width: 180px;
+}
+.cabinet-details-user-img img
+{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	transition: .2s;
+}
+.cabinet-details-user-img-hover
+{
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border: 5px white solid;
+	transition: .4s;
+	background-color: rgba(34,122,255, 0.2);
+	mix-blend-mode: normal;
+	backdrop-filter: blur(2px);
+	opacity: 0;
+	cursor: pointer;
+}
+.cabinet-details-user-img-hover img
+{
+	width: 60px;
+	height: 60px;
+}
+.cabinet-details-user-img-hover:hover
+{
+	opacity: 1;
+	transform: rotate(90deg);
+}
+.cabinet-details-user-name, .cabinet-details-user-count
+{
+	overflow-x: hidden;
+}
+.cabinet-details-user-name p
+{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+	margin-bottom: 10px;
+	overflow-x: hidden;
+}
+.cabinet-details-user-count p
+{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+	margin-bottom: 40px;
+	overflow-x: hidden;
+}
+.block-settings
+{
+	height: 50%;
+}
+.block-settings-inner
+{
+	height: 100%;
+}
+#win-inform-block
+{
+	width: 60%;
+	height: 75%;
+}
+#cab-text-settings
+{
+	font-size: 50px;
+	font-weight: 700;
+}
+.cab-logo
+{
+	height: 200px;
+}
+.cab-logo-rectangle
+{
+	height: 200px;
+	width: 450px;
+	background-color: rgba(126, 166, 246, 0.3);
+	box-shadow: 0px 0px 100px rgba(149, 191, 255, 0.35);
+}
+.cab-logo-circle
+{
+	position: relative;
+	bottom: 235px;
+	left: 60px;
+	height: 280px;
+	width: 280px;
+	border-radius: 50%;
+	background-color: #95BFFF;
+	box-shadow: 0px 0px 100px rgba(149, 191, 255, 0.38);
+}
+.cab-logo-circle p
+{
+	font-size: 310px;
+	font-family: Vampiro One;
+	font-style: normal;
+	font-weight: normal;
+	color: white;
+	position: relative;
+	bottom: 45px;
+	left: 40px;
+}
+.block-settings-inner-input
+{
+	margin-left: 100px;
+}
+.cabinet-details-interview-header
+{
+	height: 20%;
+}
+.cabinet-details-interview-header p
+{
+	color: #95BFFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 900;
+	font-size: 35px;
+}
+.cabinet-details-interview-interviews
+{
+	height: 80%;
+	padding: 0 50px;
+}
+.cabinet-details-interview-interviews-inner
+{
+	height: 90%;
+	overflow-y: auto;
+}
+.cabinet-details-interview-interviews-inner::-webkit-scrollbar
+{
+	width: 7px;
+	border-radius: 5px;
+}
+.cabinet-details-interview-interviews-inner::-webkit-scrollbar-track 
+{
+	background: #E9EFFC;
+	border-radius: 5px;
+}
+.cabinet-details-interview-interviews-inner::-webkit-scrollbar-thumb 
+{
+	background: #95BFFF;
+	border-radius: 5px;
+} 
+.cabinet-details-new-interview-inner
+{
+	height: 100%;
+}
+.cabinet-details-new-interview-button
+{
+	height: 100%;
+}
+.cabinet-details-new-interview-button-circle
+{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: #95BFFF;
+	box-shadow: 0px 0px 50px rgba(149, 191, 255, 0.6);
+	transition: 0.1s;
+}
+.cabinet-details-new-interview-button-circle:hover
+{
+	box-shadow: 0px 0px 100px rgba(149, 191, 255, 0.43);
+	transform : scale(1.1);	
+	cursor: pointer;
+}
+.cabinet-details-new-interview-button-circle p
+{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 150px;
+	position: relative;
+	bottom: 8px;
+}
+.cabinet-details-new-interview-button-text p
+{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	margin-top: 20px;
+}
+.cabinet-interview-none
+{
+	width: 100%;
+	height: 90%;
+}
+.cabinet-interview-none p
+{
+	width: 100%;
+	color: rgba(126, 166, 246, 0.35);
+	box-shadow: 0px 0px 100px rgba(149, 191, 255, 0.43);
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 900;
+	font-size: 30px;
+}
+.cabinet-interview-display
+{
+	width: 100%;
+	height: 80px;
+	margin-bottom: 20px;
+	transition: .1s;
+}
+.cabinet-interview-display:last-child
+{
+	margin-bottom: 0;
+}
+.cabinet-interview-display-inner-first
+{
+	border-radius: 30px 0 0 30px;
+	background-color: rgba(126, 166, 246, 0.35);
+	width: 85%;
+	height: 100%;
+	transition: .2s;
+	cursor: pointer;
+}
+.cabinet-interview-display-inner-first:hover
+{
+	background-color: rgba(126, 166, 246, 0.5);
+}
+.cabinet-interview-display-inner-info
+{
+	width: 90%;
+	margin-left: 5%;
+}
+.cabinet-interview-display-inner-info p
+{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+}
+.cabinet-interview-status
+{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+.cabinet-interview-display-inner-second
+{
+	border-radius: 0 30px 30px 0;
+	background-color: #95BFFF;
+	width: 10%;
+	height: 100%;
+	cursor: pointer;
+}
+.cabinet-interview-display-inner-second img
+{
+	height: 30px;
+	width: 30px;
+	pointer-events: none;
+	transition: .1s;
+}
+.cabinet-interview-display-inner-second:hover img
+{
+	transform: scale(1.2);
+}
+

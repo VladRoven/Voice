@@ -1,0 +1,475 @@
+.main
+{
+	height: 540px;
+	/*margin-left: 130px;*/
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	/*flex-wrap: wrap;*/
+}
+@media screen and (max-width: 767px) 
+{
+	.main
+	{
+		height: 250px;
+		margin-top: 90px;
+	}
+
+}
+.main-text-button
+{
+	height: 500px;
+}
+@media screen and (max-width: 767px) 
+{
+	.main-text-button
+	{
+		height: 200px;
+		width: 100%;
+	}	
+}
+#main-text
+{
+	padding-top: 145px;
+	margin-left: 130px;
+	text-align: right;
+	color: #95BFFF;
+	font-size: 73px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	line-height: 70px;
+}
+@media screen and (max-width: 767px) 
+{
+	#main-text
+	{
+		margin-left: 0px;
+		text-align: center;
+		margin-top: 0px;
+		margin-bottom: 100px;
+		font-size: 43px;
+		padding-top: 0;
+		margin: 0 20px;
+		line-height: 50px;
+	}	
+}
+.main-flex-button
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 130px;
+}
+.main-button
+{
+	height: 50px;
+	width: 230px;
+	margin-top: 60px;
+}
+@media screen and (max-width: 767px) 
+{
+	.main-button
+	{
+		margin-top: 30px;
+		width: 200px;
+	}	
+	.main-flex-button
+	{
+		margin: 0;
+	}
+}
+.main-button-inner
+{
+	height: 50px;
+	border-radius: 30px;
+	background-color: #95BFFF;
+	color: white;
+	box-shadow: 0px 0px 50px rgba(149, 191, 255, 0.6);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	transition: 0.1s;
+}
+.main-button-inner:hover
+{
+	box-shadow: 0px 0px 100px rgba(149, 191, 255, 0.43);
+	transform : scale(1.1);
+}
+.main-button-inner p
+{
+	padding-top: 11px;
+	font-size: 22px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+}
+.logo-rectangle
+{
+	width: 740px;
+	height: 340px;
+	margin-top: 100px;
+	background-color: rgba(126, 166, 246, 0.3);
+	box-shadow: 0px 0px 100px rgba(149, 191, 255, 0.35);
+}
+.logo-circle
+{
+	bottom: 420px;
+	left: 100px;
+	position: relative;
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	background-color: #95BFFF;
+	box-shadow: 0px 0px 100px rgba(149, 191, 255, 0.38);
+}
+.logo-circle p
+{
+	position: relative;
+	bottom: 80px;
+    font-family: Vampiro One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 550px;
+	text-align: center;
+    color: white;
+    height: 0;
+    width: 0;
+    left: 60px;
+}
+.main-logo
+{
+	height: 520px;
+}
+@media screen and (max-width: 768px) 
+{
+	.main-logo
+	{
+		display: none;
+	}	
+}
+.next
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 48%;
+	height: 100px;
+}
+@media screen and (max-width: 767px) 
+{
+	.next
+	{
+		margin-top: 40px;
+	}	
+}
+.next-one
+{
+	width: 40px;
+	border: 1px solid #A7CAFF;
+	background-color: #A7CAFF;
+	transform: rotate(-46.4deg);
+	margin-left: 27px;
+	position: relative;
+	top: 2px;
+}
+.next-two
+{
+	width: 40px;
+	border: 1px solid #A7CAFF;
+	background-color: #A7CAFF;
+	transform: rotate(46.4deg);
+}
+.next-up
+{
+	margin-top: 10px;
+	position: relative;
+}
+.next-down
+{
+	padding-top: 30px;
+	position: relative;
+}
+.hidden
+{
+	opacity: 0;
+}
+#next
+{
+	height: 30px;
+}
+.for-text
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 50px;
+}
+.for-text p
+{
+	font-size: 47px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	color: #95BFFF;
+}
+@media screen and (max-width: 767px) 
+{
+	.for-text{
+		margin-bottom: 0px;
+	}	
+	.for-text p
+	{
+		font-size: 35px;
+	}
+}
+.for-details
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 600px;
+}
+@media screen and (max-width: 767px) 
+{
+	.for-details
+	{
+		height: 840px;
+		margin-top: 50px;
+	}	
+}
+.for-details-text
+{
+	font-family: 'Ubuntu';
+	font-size: 20px;
+	font-weight: 400;
+	color: #95BFFF;
+	margin-top: 25px;
+	width: 480px;
+}
+@media screen and (max-width: 767px) 
+{
+	.for-details-text
+	{
+		text-align: center;
+		width: 320px;
+		font-size: 20px;
+	}	
+}
+.for-details-more-edit
+{
+	background-color: rgba(126, 166, 246, 0.57);
+	box-shadow: 0px 0px 100px rgba(149, 191, 255, 0.35);
+}
+@media screen and (max-width: 767px) 
+{
+	.for-details-more-edit
+	{
+		margin-top: 40px;
+		margin-bottom: 40px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}	
+}
+.for-details-more
+{
+	margin: 40px 350px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+@media screen and (max-width: 767px) 
+{
+	.for-details-more
+	{
+		margin: 0px 0px;	
+	}
+}
+#for-details-text-edit
+{
+	color: white;
+	margin-right: 37px;
+}
+@media screen and (max-width: 767px) 
+{
+	#for-details-text-edit
+	{
+		margin-right: 0; 
+	}	
+}
+.for-details-image img
+{
+	max-width: 120px;
+	height: 120px;
+}
+@media screen and (max-width: 767px) 
+{
+	.for-details-image img
+	{
+		width: 100px;
+		height: 100px;
+	}	
+}
+.do, .why
+{
+	margin-top: 300px;
+}
+.why
+{
+	margin-bottom: 250px;
+}
+@media screen and (max-width: 767px) 
+{
+	.do, .why 
+	{
+		margin-top: 300px;
+	}	
+}
+.do-text, .why-text
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+}
+.do-text p, .why-text p
+{
+	font-size: 50px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	color: #95BFFF;
+}
+@media screen and (max-width: 767px) 
+{
+	.do-text p, .why-text p
+	{
+		font-size: 35px;
+		text-align: center;
+	}
+}
+.do-details
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin: 0 100px;
+	margin-top: 120px;
+}
+.why-details
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin: 0 90px;
+	margin-top: 120px;
+}
+@media screen and (max-width: 767px) 
+{
+	.do-details, .why-details
+	{
+		flex-direction: column;
+		justify-content: space-between;
+		height: 900px;
+		margin: 0 0;
+		margin-top: 100px;
+	}
+}
+.do-details-more, .why-details-more
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+}
+.do-details-img, .why-details-img
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+}
+.do-details-img img, .why-details-img img
+{
+	max-width: 120px;
+	height: 120px;
+}
+.do-details-text, .why-details-text
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	font-size: 30px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #95BFFF;
+	margin-top: 20px;
+}
+.do-details-text-more, .why-details-text-more
+{
+	text-align: center;
+	max-width: 290px;
+}
+@media screen and (max-width: 767px) 
+{
+	.do-details-text-more, .why-details-text-more
+	{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-around;
+		max-width: 100%;
+		margin: 0 15%;
+	}
+}
+.do-details-text-more p, .why-details-text-more p
+{
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #95BFFF;
+	margin-top: 20px;
+}
